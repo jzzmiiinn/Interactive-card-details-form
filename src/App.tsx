@@ -11,8 +11,7 @@ function App() {
   const [cvc, setCvc] = useState("");
   const [isComplete, setIsComplete] = useState(false);
 
-  const handleConfirm = (e) => {
-    e.preventDefault();
+  const handleConfirm = () => {
     setIsComplete(true);
   };
 
